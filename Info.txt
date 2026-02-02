@@ -1,0 +1,21 @@
+Les dossier sont organiser de la manier suivante:
+    il y a 6 fichiers:
+    \-> config = configure la page 
+    \-> data = Base de donné 
+    \-> img = image
+    \-> js = fichier java script
+    \-> css = fichier style css
+    \->partials = fichier de raccourci ( ex: menu, footer ect)
+    Rassine ('fichiers de visuel HTML')
+
+les fichiers racine sont nommé de la façon suivante: 
+'Type de fichier''Pour qui c'est destiner'.'Le language utiliser'
+ex: AcceuilCLT.html
+
+type de peronne: ADM => Admin
+                 CLT => Client 
+                 PRTN => Printer 
+                 S => TOUS 
+
+
+    

@@ -1,0 +1,554 @@
+<?php // AcceuilS.php
+
+
+?>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print3D Pro - Impression 3D en ligne | Prototypage et Séries</title>
+    <meta name="description" content="Service d'impression 3D professionnel. Prototypage rapide, production en série, qualité supérieure. Devis gratuit en ligne.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="/css/AceuilS.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <span><i class="icon-phone"></i> +33 1 23 45 67 89</span>
+                <span><i class="icon-mail"></i> contact@print3dpro.fr</span>
+                <span><i class="icon-clock"></i> Lun-Ven: 9h-18h</span>
+            </div>
+        </div>
+    </div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 5L55 20V45L30 60L5 45V20L30 5Z" fill="#3b82f6"/>
+                            <path d="M30 20L45 28V44L30 52L15 44V28L30 20Z" fill="#fff"/>
+                            <circle cx="30" cy="36" r="8" fill="#3b82f6"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Print3D<span class="highlight">Pro</span></span>
+                </a>
+
+                <nav class="nav" id="mainNav">
+                    <ul class="nav-list">
+                        <li><a href="#accueil" class="active">Accueil</a></li>
+                        <li><a href="#services">Nos Services</a></li>
+                        <li><a href="#realisations">Realisations</a></li>
+                        <li><a href="#materiaux">Materiaux</a></li>
+                        <li><a href="#tarifs">Tarifs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="auth-buttons" id="authButtons">
+                        <a href="#contact" class="btn-login" style="color: var(--secondary); font-weight: 600; padding: 8px 16px; margin-right: 10px;">Connexion</a>
+                        <a href="#contact" class="btn btn-primary" style="padding: 10px 20px;">Inscription</a>
+                    </div>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Impression 3D en ligne<br><span class="highlight">Prototypage et Series</span></h1>
+                <p class="hero-text">Donnez vie a vos projets avec notre service d'impression 3D professionnel. Qualite superieure, delais rapides et accompagnement personnalise pour tous vos besoins.</p>
+                <div class="hero-buttons">
+                    <a href="#devis" class="btn btn-primary btn-lg">Obtenir un devis</a>
+                    <a href="#services" class="btn btn-outline btn-lg">Nos services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number-container">
+                            <span class="stat-number" data-target="500">0</span><span class="stat-number">+</span>
+                        </div>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number-container">
+                            <span class="stat-number" data-target="150">0</span><span class="stat-number">%</span>
+                        </div>
+                        <span class="stat-label">Clients satisfaits</span>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number-container">
+                            <span class="stat-number" data-target="24">0</span><span class="stat-number">h</span>
+                        </div>
+                        <span class="stat-label">Délai express</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="client-choice-section" id="clientChoiceSection">
+        <div class="container">
+            <div class="section-header">
+                <h2>Que souhaitez-vous <span class="highlight">faire</span> ?</h2>
+                <p>Choisissez l'option qui correspond a votre besoin</p>
+            </div>
+            <div class="choice-cards">
+                <a href="#devis" class="choice-card">
+                    <div class="choice-card-icon">
+                        <span>&#128424;</span>
+                    </div>
+                    <div class="choice-card-content">
+                        <h3>Impression 3D</h3>
+                        <p class="choice-desc">J'ai deja un fichier 3D (STL, OBJ, 3MF) et je souhaite le faire imprimer</p>
+                        <ul class="choice-list">
+                            <li>Upload de fichier STL</li>
+                            <li>Devis instantane</li>
+                            <li>Choix du materiau</li>
+                            <li>Livraison rapide</li>
+                        </ul>
+                        <span class="choice-card-btn">Commencer &#8594;</span>
+                    </div>
+                </a>
+                <a href="#devis" class="choice-card">
+                    <div class="choice-card-icon">
+                        <span>&#127912;</span>
+                    </div>
+                    <div class="choice-card-content">
+                        <h3>Modelisation + Impression</h3>
+                        <p class="choice-desc">Je n'ai pas de fichier 3D, j'ai besoin d'une modelisation avant impression</p>
+                        <ul class="choice-list">
+                            <li>Creation du modele 3D</li>
+                            <li>Devis personnalise</li>
+                            <li>Accompagnement complet</li>
+                            <li>Revisions incluses</li>
+                        </ul>
+                        <span class="choice-card-btn">Demander un devis &#8594;</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="highlight">Services</span></h2>
+                <p>Des solutions adaptees a tous vos projets d'impression 3D</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none">
+                            <rect x="8" y="8" width="48" height="48" rx="4" stroke="#3b82f6" stroke-width="3"/>
+                            <path d="M20 32L28 40L44 24" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Prototypage Rapide</h3>
+                    <p>Transformez vos idees en prototypes fonctionnels en quelques jours. Ideal pour valider vos concepts avant production.</p>
+                    <a href="#devis" class="service-link">En savoir plus <span>&#8594;</span></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="24" stroke="#3b82f6" stroke-width="3"/>
+                            <circle cx="32" cy="32" r="12" stroke="#3b82f6" stroke-width="3"/>
+                            <circle cx="32" cy="32" r="4" fill="#3b82f6"/>
+                        </svg>
+                    </div>
+                    <h3>Production en Serie</h3>
+                    <p>Fabrication de pieces en petite et moyenne serie avec une qualite constante et des couts optimises.</p>
+                    <a href="#devis" class="service-link">En savoir plus <span>&#8594;</span></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none">
+                            <path d="M32 8L56 20V44L32 56L8 44V20L32 8Z" stroke="#3b82f6" stroke-width="3"/>
+                            <path d="M32 32V56M32 32L8 20M32 32L56 20" stroke="#3b82f6" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3>Modelisation 3D</h3>
+                    <p>Nos designers creent ou optimisent vos fichiers 3D pour garantir une impression parfaite.</p>
+                    <a href="#devis" class="service-link">En savoir plus <span>&#8594;</span></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none">
+                            <rect x="12" y="20" width="40" height="32" rx="2" stroke="#3b82f6" stroke-width="3"/>
+                            <path d="M20 20V14C20 10.686 22.686 8 26 8H38C41.314 8 44 10.686 44 14V20" stroke="#3b82f6" stroke-width="3"/>
+                            <circle cx="32" cy="36" r="6" stroke="#3b82f6" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3>Finitions Premium</h3>
+                    <p>Poncage, peinture, assemblage... Obtenez des pieces avec une finition professionnelle impeccable.</p>
+                    <a href="#devis" class="service-link">En savoir plus <span>&#8594;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="realisations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="highlight">Realisations</span></h2>
+                <p>Decouvrez quelques-uns de nos projets recents</p>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="prototype">Prototypes</button>
+                <button class="filter-btn" data-filter="serie">Series</button>
+                <button class="filter-btn" data-filter="art">Art & Design</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="prototype">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #3b82f6 0%, #fc5c65 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <path d="M32 8L56 20V44L32 56L8 44V20L32 8Z" stroke="#fff" stroke-width="2"/>
+                                <path d="M32 32V56M32 32L8 20M32 32L56 20" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Prototype Mecanique</h4>
+                        <span>Prototypage</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="serie">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #45aaf2 0%, #4b7bec 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="20" stroke="#fff" stroke-width="2"/>
+                                <circle cx="32" cy="32" r="10" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Pieces Industrielles</h4>
+                        <span>Production serie</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #26de81 0%, #20bf6b 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <path d="M32 8L40 28H56L44 40L48 56L32 46L16 56L20 40L8 28H24L32 8Z" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Sculpture Artistique</h4>
+                        <span>Art & Design</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="prototype">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #a55eea 0%, #8854d0 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <rect x="12" y="12" width="40" height="40" rx="4" stroke="#fff" stroke-width="2"/>
+                                <rect x="22" y="22" width="20" height="20" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Boitier Electronique</h4>
+                        <span>Prototypage</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="serie">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #3b82f6 0%, #f7b731 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <circle cx="20" cy="32" r="12" stroke="#fff" stroke-width="2"/>
+                                <circle cx="44" cy="32" r="12" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Engrenages Custom</h4>
+                        <span>Production serie</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #fc5c65 0%, #eb3b5a 100%);">
+                        <div class="gallery-placeholder">
+                            <svg viewBox="0 0 64 64" fill="none">
+                                <path d="M32 12C42 12 52 22 52 32C52 42 42 52 32 52C22 52 12 42 12 32" stroke="#fff" stroke-width="2"/>
+                                <circle cx="32" cy="32" r="8" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Lampe Design</h4>
+                        <span>Art & Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="materials" id="materiaux">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="highlight">Materiaux</span></h2>
+                <p>Une large gamme de materiaux pour repondre a tous vos besoins</p>
+            </div>
+            <div class="materials-grid">
+                <div class="material-card">
+                    <div class="material-header">
+                        <h3>PLA</h3>
+                        <span class="material-badge">Populaire</span>
+                    </div>
+                    <p>Biodegradable, ideal pour prototypes et objets decoratifs. Excellente qualite de surface.</p>
+                    <ul class="material-features">
+                        <li>Ecologique</li>
+                        <li>Facile a imprimer</li>
+                        <li>Grande precision</li>
+                    </ul>
+                </div>
+                <div class="material-card featured">
+                    <div class="material-header">
+                        <h3>ASA</h3>
+                        <span class="material-badge">Resistant</span>
+                    </div>
+                    <p>Haute resistance aux UV et intemperies. Parfait pour les pieces d'exterieur.</p>
+                    <ul class="material-features">
+                        <li>Resiste aux UV</li>
+                        <li>Resiste aux intemperies</li>
+                        <li>Tres solide</li>
+                    </ul>
+                </div>
+                <div class="material-card">
+                    <div class="material-header">
+                        <h3>PETG</h3>
+                        <span class="material-badge">Polyvalent</span>
+                    </div>
+                    <p>Combine solidite et facilite d'impression. Resistant aux chocs et a l'humidite.</p>
+                    <ul class="material-features">
+                        <li>Flexible</li>
+                        <li>Transparent possible</li>
+                        <li>Alimentaire</li>
+                    </ul>
+                </div>
+                <div class="material-card">
+                    <div class="material-header">
+                        <h3>Resine</h3>
+                        <span class="material-badge">Precision</span>
+                    </div>
+                    <p>Finition ultra-lisse et details extremes. Ideal pour bijoux et figurines.</p>
+                    <ul class="material-features">
+                        <li>Haute definition</li>
+                        <li>Surface lisse</li>
+                        <li>Details fins</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="tarifs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="highlight">Tarifs</span></h2>
+                <p>Des prix transparents adaptes a vos besoins</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Decouverte</h3>
+                        <div class="price">
+                            <span class="currency">&#8364;</span>
+                            <span class="amount">15</span>
+                            <span class="period">/ piece</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> Impression PLA standard</li>
+                        <li><span class="check">&#10003;</span> Volume jusqu'a 100cm3</li>
+                        <li><span class="check">&#10003;</span> Delai 5-7 jours</li>
+                        <li><span class="check">&#10003;</span> Support par email</li>
+                        <li class="disabled"><span class="cross">&#10007;</span> Finitions premium</li>
+                    </ul>
+                    <a href="#devis" class="btn btn-outline">Choisir</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Le plus populaire</div>
+                    <div class="pricing-header">
+                        <h3>Professionnel</h3>
+                        <div class="price">
+                            <span class="currency">&#8364;</span>
+                            <span class="amount">35</span>
+                            <span class="period">/ piece</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> Tous materiaux disponibles</li>
+                        <li><span class="check">&#10003;</span> Volume jusqu'a 500cm3</li>
+                        <li><span class="check">&#10003;</span> Delai 3-5 jours</li>
+                        <li><span class="check">&#10003;</span> Support prioritaire</li>
+                        <li><span class="check">&#10003;</span> Finitions au choix</li>
+                    </ul>
+                    <a href="#devis" class="btn btn-primary">Choisir</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Entreprise</h3>
+                        <div class="price">
+                            <span class="currency">&#8364;</span>
+                            <span class="amount">Sur devis</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">&#10003;</span> Production en serie</li>
+                        <li><span class="check">&#10003;</span> Volume illimite</li>
+                        <li><span class="check">&#10003;</span> Delai express 24h</li>
+                        <li><span class="check">&#10003;</span> Account manager dedie</li>
+                        <li><span class="check">&#10003;</span> Finitions premium incluses</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Nous contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="devis">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pret a lancer votre projet ?</h2>
+                <p>Obtenez un devis gratuit en moins de 24h. Notre equipe est la pour vous accompagner.</p>
+                <form class="cta-form" id="devisForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Votre nom" required>
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Telephone">
+                        <select>
+                            <option value="">Type de projet</option>
+                            <option value="prototype">Prototypage</option>
+                            <option value="serie">Production serie</option>
+                            <option value="modelisation">Modelisation 3D</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Decrivez votre projet..." rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary btn-lg">Envoyer ma demande</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contactez-<span class="highlight">nous</span></h2>
+                    <p>Une question ? Notre equipe est disponible pour vous repondre.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>123 Rue de l'Innovation<br>75001 Paris, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Telephone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@print3dpro.fr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <p>Carte interactive</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 5L55 20V45L30 60L5 45V20L30 5Z" fill="#3b82f6"/>
+                                <path d="M30 20L45 28V44L30 52L15 44V28L30 20Z" fill="#fff"/>
+                                <circle cx="30" cy="36" r="8" fill="#3b82f6"/>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Print3D<span class="highlight">Pro</span></span>
+                    </a>
+                    <p>Votre partenaire impression 3D de confiance. Qualite, rapidite et innovation au service de vos projets.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/AcceuilS.js" defer></script>
+
+</body>
+</html>
